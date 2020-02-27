@@ -1,1 +1,1 @@
-# StudyDaily
+#simple examples fro daily study
