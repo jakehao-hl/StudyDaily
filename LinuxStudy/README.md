@@ -1,0 +1,1 @@
+simple command for Linux study
