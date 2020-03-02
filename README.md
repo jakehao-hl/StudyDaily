@@ -1,2 +1,1 @@
-#simple examples fro daily study
-just for success
+simple examples for daily study
