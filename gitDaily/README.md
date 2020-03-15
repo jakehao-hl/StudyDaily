@@ -1,1 +1,0 @@
-simple examples for gitstudy
