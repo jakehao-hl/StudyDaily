@@ -1,1 +1,0 @@
-simples for java study!
