@@ -1,6 +1,6 @@
 package com.java.variable;
 
-public class TestVariable {
+public   class TestVariable {
     static int a;
 
     public static void main(String[] args) {
