@@ -4,6 +4,8 @@ package com.java.string;
 public class TestString {
 
     public static void main(String[] args) {
+        String aa=null;
+        String bb="";
         //indexof方法从0开始
         String str = "ab,cd,ef";
         int a =str.indexOf("a");
@@ -16,5 +18,7 @@ public class TestString {
              ) {
             System.out.print(c);
         }
+
+
     }
 }
