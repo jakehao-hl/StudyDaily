@@ -1,7 +1,5 @@
 package com.java.clone;
 
-import javafx.application.Application;
-
 import java.io.*;
 
 public class Outer implements Serializable {

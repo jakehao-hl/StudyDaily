@@ -73,7 +73,7 @@ public class Test {
         System.out.println("学生2:" + stu2.getNumber() + ",地址:" + stu2.getAddr().getAdd());
 
         addr.setAdd("西湖区");
-
+        System.out.println(stu1.getAddr().getAdd() == stu2.getAddr().getAdd());
         System.out.println("学生1:" + stu1.getNumber() + ",地址:" + stu1.getAddr().getAdd());
         System.out.println("学生2:" + stu2.getNumber() + ",地址:" + stu2.getAddr().getAdd());
     }
