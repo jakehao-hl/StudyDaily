@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class TestTransfer {
+public class TestTransferArray {
     public static void main(String[] args) {
         //数组转集合
         int[] arr = {1, 2, 3, 4};

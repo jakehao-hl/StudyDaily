@@ -1,7 +1,7 @@
 package com.java.string;
 
 
-public class TestString {
+public class TestString implements  Comparable{
 
     public static void main(String[] args) {
         String aa=null;
@@ -18,7 +18,13 @@ public class TestString {
              ) {
             System.out.print(c);
         }
+        str.toCharArray();
+        str.charAt(0);
 
+    }
 
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }
