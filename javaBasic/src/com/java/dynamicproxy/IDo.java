@@ -1,6 +1,7 @@
 package com.java.dynamicproxy;
 
-public interface IDoable {
+public interface IDo {
     void doSomething();
+
     void somethingElse(String arg);
 }
