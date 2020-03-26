@@ -1,6 +1,5 @@
 package com.java.reflect;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
 public class Student {
@@ -54,5 +53,13 @@ public class Student {
         //调用方法
         methodSet.invoke(stu, "李四");
         System.out.println(methodGet.invoke(stu));
+    }
+
+    public void login() {
+        System.out.println("登陆了");
+    }
+
+    public void logout() {
+        System.out.println("退出登陆了");
     }
 }
