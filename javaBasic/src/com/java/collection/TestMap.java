@@ -19,6 +19,7 @@ public class TestMap {
 //        map.remove("2");
 //        map.size();
         Map<String, String> map = new HashMap<>();
+        map.put(null,"");
         map.put("1", "ss");
         map.put("2", "bb");
         map.put("3", "vv");
