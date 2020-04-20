@@ -15,7 +15,7 @@ class ClassStack {
     }
 
     //出栈
-    void pop(Object obj) {
+    void pop() {
         linkedList.removeLast();
     }
 
@@ -36,7 +36,10 @@ public class TestStack {
         stack.push("a");
         stack.push("b");
         stack.push("c");
-        System.out.println(stack);
+//        System.out.println(stack);
+        stack.pop();
+        stack.pop();
+        System.out.println("stack = " + stack);
 
     }
 }
